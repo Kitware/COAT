@@ -1,0 +1,26 @@
+name: coat
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.0
+  - numpy=1.19.2
+  - pillow=8.2.0
+  - pip=21.0.1
+  - python=3.8.8
+  - pytorch=1.7.1
+  - scipy=1.6.2
+  - torchvision=0.8.2
+  - tqdm=4.60.0
+  - scikit-learn=0.24.1
+  - black=21.5b0
+  - flake8=3.9.0
+  - isort=5.8.0
+  - tabulate=0.8.9
+  - future=0.18.2
+  - tensorboard=2.4.1
+  - tensorboardx=2.2
+  - pip:
+    - ipython==7.5.0
+    - yacs==0.1.8

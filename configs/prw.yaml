@@ -1,0 +1,13 @@
+OUTPUT_DIR: "./logs/prw_coat"
+INPUT:
+  DATASET: "PRW"
+  DATA_ROOT: "../../datasets/PRW"
+  BATCH_SIZE_TRAIN: 3
+SOLVER:
+  MAX_EPOCHS: 13
+  BASE_LR: 0.003
+MODEL:
+  LOSS:
+    LUT_SIZE: 482
+    CQ_SIZE: 500
+DISP_PERIOD: 100

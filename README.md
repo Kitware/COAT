@@ -1,4 +1,4 @@
-This repository hosts the source code of our paper: [[CVPR 2022] Cascade Transformers for End-to-End Person Search](). In this work, we developed a novel Cascaded Occlusion-Aware Transformer (COAT) model for end-to-end person search. The COAT model outperforms **state-of-the-art** methods on the PRW benchmark dataset by a large margin and achieves state-of-the-art performance on the CUHK-SYSU dataset. 
+This repository hosts the source code of our paper: [[CVPR 2022] Cascade Transformers for End-to-End Person Search](https://arxiv.org/abs/2203.09642). In this work, we developed a novel Cascaded Occlusion-Aware Transformer (COAT) model for end-to-end person search. The COAT model outperforms **state-of-the-art** methods on the PRW benchmark dataset by a large margin and achieves state-of-the-art performance on the CUHK-SYSU dataset. 
 
 | Dataset   | mAP  | Top-1 | Model                                                        |
 | --------- | ---- | ----- | ------------------------------------------------------------ |

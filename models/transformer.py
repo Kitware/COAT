@@ -174,18 +174,18 @@ class Transformer(nn.Module):
             if self.feature_aug_type == 'exchange_token':
                 feature_mask = exchange_token()
                 trans_feat = feature_mask(trans_feat, mask_box)
-            elif feature_aug_type == 'cutout_patch':
+            elif self.feature_aug_type == 'cutout_patch':
                 feature_mask = cutout_patch()
                 trans_feat = feature_mask(trans_feat)
-            elif feature_aug_type == 'erase_patch':
+            elif self.feature_aug_type == 'erase_patch':
                 feature_mask = erase_patch()
                 trans_feat = feature_mask(trans_feat)
-            elif feature_aug_type == 'mixup_patch':
+            elif self.feature_aug_type == 'mixup_patch':
                 feature_mask = mixup_patch()
                 trans_feat = feature_mask(trans_feat)
 
          if self.use_feature_mask:
-            if feature_aug_type == 'jigsaw_patch':
+            if self.feature_aug_type == 'jigsaw_patch':
                 feature_mask = jigsaw_patch()
                 trans_feat = feature_mask(trans_feat)
             elif self.feature_aug_type == 'jigsaw_token':

@@ -107,7 +107,7 @@ If you use this code in your research, please cite this project as follows:
 
 ```
 @inproceedings{yu2022coat,
-  title     = {Sequential End-to-end Network for Efficient Person Search},
+  title     = {Cascade Transformers for End-to-End Person Search},
   author    = {Rui Yu and 
                Dawei Du and 
                Rodney LaLonde and 

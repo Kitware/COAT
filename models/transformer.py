@@ -184,7 +184,7 @@ class Transformer(nn.Module):
                 feature_mask = mixup_patch()
                 trans_feat = feature_mask(trans_feat)
 
-         if self.use_feature_mask:
+        if self.use_feature_mask:
             if self.feature_aug_type == 'jigsaw_patch':
                 feature_mask = jigsaw_patch()
                 trans_feat = feature_mask(trans_feat)
